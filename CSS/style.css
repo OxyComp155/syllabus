@@ -1,0 +1,75 @@
+body {
+  padding-left: 11em;
+  font-size: 10pt;
+  color: #000000;
+  font-family: Verdana, Georgia, Geneva, Arial, Helvetica, sans-serif;
+  background-color: #FFFFFF;
+  width:600px;
+}  
+
+h1 {
+  font-size: 18pt;
+  font-family: Verdana, Georgia, Geneva, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  line-height: 20pt;
+}
+
+h2 {
+  font-size: 16pt;
+  font-family: Verdana, Georgia, Geneva, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  line-height: 18pt;
+}
+
+h3 {
+  font-size: 12pt;
+  font-family: Verdana, Georgia, Geneva, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  line-height: 14pt;
+}
+
+h6 {
+  font-size: 8pt;
+  font-family: Verdana, Georgia, Geneva, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  line-height: 10pt;
+}
+
+a:link, a:visited {
+  color: #CC3300;
+  text-decoration: none;
+}  
+
+a:hover, a:active {
+  color: #663333;
+}  
+  
+img {
+  width: 450px;
+}
+
+ul.navbar {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 4em;
+  left: 1em;
+  width: 8em;
+  list-style-type: none;
+}
+    
+ul.navbar li {
+    background: #FFFF00;
+}
+
+div.footer {
+    font-size:8pt;
+    font-style: italic;
+    padding-top: 30pt;  
+}
+  
+textarea {
+  background: #faf8f0;
+  width: 600px;
+  height: 150px;
+}
