@@ -30,12 +30,13 @@ Meeting One: September 3, 2013
 	Course Overview
 	Histories of Internet, Web, Web Design
 	Introduction to HTML
-	Introduction to web publishing methods
+	Introduction to web publishing methods: Files and basic services
 	Assignment #1
 
 Meeting Two: September 10, 2013
 	Review assignment #1
 	Introduction to Styling, CSS
+	Additional web publishing methods: Servers and domains
 	Assignment #2
 
 Meeting Three: September 18, 2013
@@ -46,7 +47,7 @@ Meeting Three: September 18, 2013
 
 Meeting Four: September 25, 2013
 	Review Assignment #3
-	Overview of web publishing methods/platforms
+	Additional web publishing methods/platforms: Content Management Systems
 	Assignment #4
 
 Meeting Five: October 2, 2013
