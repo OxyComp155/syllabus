@@ -30,6 +30,7 @@ Meeting One: September 3, 2013
 	Course Overview
 	Histories of Internet, Web, Web Design
 	Introduction to HTML
+	Introduction to web publishing methods
 	Assignment #1
 
 Meeting Two: September 10, 2013
@@ -67,6 +68,7 @@ Meeting Eight: October 30, 2013
 	Project Management
 
 Meeting Nine: November 6, 2013
+	Project check-in, review, and rotation
 	Coding: Divide & Conquer
 
 Meeting Ten: November 13, 2013
@@ -102,7 +104,8 @@ Late assignments are not allowed. This course will move quickly from concept to 
 Grading 
 	Weekly assignments: 25%
 	Attendance and participation: 25%
-	Effort and quality of work on final project: 50%
+	Effort and quality of work at early project check-in: 20%
+	Effort and quality of work on final project: 30%
 
 Writing support
 Although this course is not especially writing intensive, you might nonetheless wish to take advantage of the services offered by the College’s Center for Academic Excellence ( http://www.oxy.edu/center-academic-excellence ) and, specifically, the CAE’s Writing Center ( http://www.oxy.edu/center-academic-excellence/writing-center )
