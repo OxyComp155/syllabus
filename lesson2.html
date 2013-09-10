@@ -1,0 +1,200 @@
+
+<!doctype html>
+<html>
+
+<head>
+	<title>COMP 155: Web Design & Programming | Week Two</title>
+	<link type="text/css" rel="stylesheet" href="css/style.css">
+</head>
+
+<style type="text/css">
+</style>
+
+<body>
+
+<!-- Site navigation menu -->
+	<ul class="navbar">
+		<li><a href="https://github.com/OxyComp155/syllabus/blob/master/comp155syllabus2013.txt">Syllabus</a></li>
+		<li><a href="lesson1.html">Week One</a></li>
+		<li><a href="lesson2.html">Week Two</a></li>
+	</ul>
+
+<!-- Main content -->
+	<h1>COMP 155: Web Design & Programming</h1> 
+	<h2>Week Two: Styling + CSS</h2>
+	<img src="http://farm8.staticflickr.com/7066/6777561950_3dbd9c0fea_b.jpg" border="1">
+	<br>
+
+<!-- Lesson Plan -->
+
+	<div class="plan">
+		<h2>Lesson Plan</h2>
+		<ol>
+			<li><a href="#review">Reviewing Basic HTML</a></li>
+			<li><a href="#styling">Introduction to styling</a></li>
+			<li><a href="#publishing">Introduction to web publishing</a></li>
+		</ol>
+	</div>
+
+<!-- Review of HTML -->
+	<div id="review">
+		<h2>Review of HTML</h2>
+		<ol>
+			<li>Vocabulary: <a href="http://www.w3schools.com/html/html_elements.asp">elements</a>, <a href="http://www.htmldog.com/reference/htmltags/">tags</a>, <a href="http://www.w3schools.com/html/html_attributes.asp">attributes (name="value")</a></li>
+			<li><a href-"http://www.w3schools.com/html/html_elements.asp">Nesting</a></li>
+			<li><a href="http://www.webdesignfromscratch.com/html-css/semantic-html/">Semantic</a> <a href="http://en.wikipedia.org/wiki/Semantic_HTML">design</a></li>
+			<li><a href="http://www.w3schools.com/web/web_standards.asp">Standards</a></li>
+		</ol>
+	</div>
+
+<!-- Introduction to styling -->
+	<div id="styling">
+		<h2>Introduction to Styling</h2>
+
+		<h3>CSS History and Principles</h3>
+			<ol>
+				<li>Separating style and semantics [<a href="http://www.csszengarden.com">CSS Zen Garden</a>]</li>
+				<li>Combining and cascading styles</li>
+				<li><a href="http://www.htmldog.com/guides/css/intermediate/grouping/">Grouping and nesting</a></li>
+				<li>Vocabulary - Rules, <a href="http://www.htmldog.com/guides/css/intermediate/classid/">Selectors</a> and <a href="http://www.htmldog.com/guides/css/intermediate/shorthand/">declarations</a> (<a href="http://www.htmldog.com/reference/cssproperties/">property:value</a>)</li>
+				<li><a href="http://www.htmldog.com/guides/css/intermediate/specificity/">Specificity</a></li>
+				<li><a href="http://www.htmldog.com/guides/css/intermediate/layout/">Page layout</a> [or, with HTML5, <a href="http://www.htmldog.com/guides/html/intermediate/sectioning/">sectioning</a>]</li>
+			</ol>
+		
+		<h3>CSS References</h3>
+			<ul>
+				<li><a href="http://csseasy.com" target="_blank">CSS Easy</a></li>
+				<li><a href="http://www.smashingmagazine.com/mastering-css-principles-comprehensive-reference-guide/">Smashing Magazine</a></li>
+				<li><a href="http://www.w3.org/Style/Examples/011/firstcss" target="_blank">W3C CSS Tutorial (one-page)</a></li>
+				<li><a href="http://www.w3.org/MarkUp/Guide/Style" target="_blank">"Adding a touch of style" (one-page intro)</a></li>
+				<li><a href="https://developer.mozilla.org/en-US/docs/CSS/Getting_Started" target="_blank">Mozilla CSS Tutorial (in-depth)</a></li>
+				<li><a href="https://developer.mozilla.org/en-US/docs/CSS/CSS_Reference" target="_blank">Mozilla CSS Reference</a></li>
+				<li><a href="http://www.w3schools.com/cssref/default.asp" target="_blank">W3schools CSS Reference</a></li>
+			</ul>
+		<h3>Image Tools</h3>
+			<ul>
+				<li><a href="http://andrew.hedges.name/experiments/aspect_ratio/" target="_blank">Aspect Ratio Calculator</a>
+				<li><a href="http://www.gimp.org/" target="_blank">Gimp</a></li>
+				<li><a href="http://www.picmonkey.com/" target="_blank">PicMonkey</a></li>
+			</ul>
+		<h3>Color References</h3>
+			<ul>
+				<li><a href="http://html-color-codes.com" target="_blank">Web Color Chart</a></li>
+				<li><a href="http://www.w3schools.com/html/html_colorvalues.asp" target="_blank">HTML Color Names</a></li>
+				<li><a href="http://colorschemedesigner.com" target="_blank">Color Scheme</a></li>
+				<li><a href="http://www.w3schools.com/tags/ref_colormixer.asp?colorbottom=FFFF00&colortop=FFFFFF" target="_blank">Color Mixer</a></li>
+			</ul>
+		<h3>In-Class Demo</h3>
+			<ol>
+				<li>Download the source code of <a href="https://dl.dropbox.com/u/50125693/CS155/weektwo_backup.html" target="_blank">this page</a> by right-clicking (PC) or control-clicking on the body of the page</li>
+				<li>Open the file in a text editor</li>
+				<li>To begin styling your page, type the following in the <strong>HEAD</strong> section of your HTML document</li>
+					<br><textarea>
+					<style type="text/css">
+					body {
+					  font-size: 10pt;
+					  color: #000000;
+					  font-family: Verdana, Georgia, Geneva, Arial, Helvetica, sans-serif;
+					  background-color: #FFFFFF;
+					  padding-left: 5em;
+					}  
+					</style>
+					</textarea>
+					<br><br>
+				<li>Let's insert the rest of the CSS into this document bit by bit. Below is the entire style sheet applied to the page:</li>
+					<br><textarea>
+					body {
+					  padding-left: 11em;
+					  font-size: 10pt;
+					  color: #000000;
+					  font-family: Verdana, Georgia, Geneva, Arial, Helvetica, sans-serif;
+					  background-color: #FFFFFF;
+					}  
+					
+					h1 {
+					  font-size: 20pt;
+					  font-family: Verdana, Georgia, Geneva, Arial, Helvetica, sans-serif;
+					  font-weight: bold;
+					  line-height: 20pt;
+					}
+					
+					h2 {
+					  font-size: 16pt;
+					  font-family: Verdana, Georgia, Geneva, Arial, Helvetica, sans-serif;
+					  font-weight: bold;
+					  line-height: 18pt;
+					}
+					
+					h3 {
+					  font-size: 12pt;
+					  font-family: Verdana, Georgia, Geneva, Arial, Helvetica, sans-serif;
+					  font-weight: bold;
+					  line-height: 14pt;
+					}
+					
+					a:link, a:visited {
+					  color: #CC3300;
+					  text-decoration: none;
+					}  
+					
+					a:hover, a:active {
+					  color: #663333;
+					}  
+					  
+					img {
+					  width: 450px;
+					}
+					
+					ul.navbar {
+					  padding: 0;
+					  margin: 0;
+					  position: absolute;
+					  top: 4em;
+					  left: 1em;
+					  width: 8em;
+					  list-style-type: none;
+					}
+						
+					ul.navbar li {
+						background: #FFFF00;
+					}
+					
+					div.footer {
+						font-size:8pt;
+						font-style: italic;
+						padding-top: 30pt;  
+					}
+					  
+					textarea {
+					  background: #faf8f0;
+					  width: 600px;
+					  height: 150px;
+					}
+					</textarea>
+				<li>Make an external style sheet by doing the following: First copy and cut the CSS part of the code from the head section of the document. Then paste it into a separate file. Save this new file as "style.css" (notably with the file extension of .css). Then, insert the following line into the head section of the HTML document:</li>	
+				<br>
+					<textarea>
+						<link type="text/css" rel="stylesheet" href="style.css">
+					</textarea>
+			</ol>
+
+		<h3>In-Class Exercise: Let's style our syllabus page</h3>
+		Take what you marked up on the syllabus page from last week. Remove all the formatting and layout tags. If you don't have access to the file that you marked up last week, download this <a href="syllabus.html">syllabus page</a> (already marked up in HTML). Start styling the page with CSS.
+	</div>
+
+<!-- Introduction to web publishing -->
+	<div id="publishing">
+		<h2>Introduction to web publishing</h2>
+	</div>
+	
+<!-- Assignment -->	
+	<div id="assignment">
+		<h3>Assignment #2: Style Your Autobiographical Page Experiment</h3>
+		Use the autobiographical page that you created last week to experiment with styling in CSS. Remove all the formatting and layout tags before you begin styling. Think about how to create a visually compelling and spatially sensible layout. Think about how the layout interacts with the content of the page. Think about how you would most effectively organize the information, what you want to emphasize on the page, and how your audience will view the page.
+	
+		<p>Refer to the <a href="https://developer.mozilla.org/en-US/docs/CSS/CSS_Reference" target="_blank">CSS reference</a> to broaden your CSS vocabulary. </a>
+	</div>
+	
+	<div class="footer">Image is licensed by <a href="http://creativecommons.org/licenses/by-sa/2.0/deed.en" target="_blank">Creative Commons BY-SA 2.0 License</a>. More <a href="http://www.flickr.com/photos/stallio/6777561950/in/photostream/">about the image</a>.
+</body>
+</html>

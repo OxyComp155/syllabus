@@ -73,3 +73,12 @@ textarea {
   width: 600px;
   height: 150px;
 }
+
+.plan a {
+  color: #000000;
+  text-decoration: none;
+}  
+
+#styling li {
+  list-style-type: none;
+}  
