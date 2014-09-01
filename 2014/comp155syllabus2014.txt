@@ -1,0 +1,112 @@
+COMP 155 - Web Design and Programming
+Instructor: Daniel Chamberlain, PhD
+Contact: chamberlain@oxy.edu
+Twitter: @ddchamberlain  Course hashtag: #webmaking155
+Brown Lab (Library) Tuesday 10:05-11:30
+Office Hours: Monday + Thursday 9:00-10am, NW corner of main floor of Library 
+
+http://cdlrsandbox.org/chamberlain/images/webmaking.png
+
+Course Description
+
+This course will introduce and critically situate the concepts required to design, build, and program an interactive web site. We will begin the course by reviewing the histories and technical foundations of the Internet, the World Wide Web, and practices of web design. As we work through the fundamentals of of markup, styling, and programming, we will also explore concepts of prototyping, interaction, user experience, and responsive design. During the course of the semester we will explore tools for analyzing code, practice building pages from scratch, and will learn how to hack existing platforms. With a fundamental understanding of the history and practice of web design in place, we will further develop our skills through collaborative project work aimed at producing a set of live web sites. This synthetic approach to webmaking will allow students to develop a critical understanding of this fundamental medium, a facility with the methods and techniques of web design, and an appreciation for the computational and algorithmic systems the underlie modern technological (and social) systems.
+
+Course Goals
+1. to learn to code for the web
+2. to practice the standards of web design 
+3. to creatively experiment with webmaking languages
+4. to produce exemplary websites as part of collaborative project teams 
+
+Suggested Readings/Resources
+	We will assign reading and share resources as the semester progresses, most of which will be freely available on the web. The following texts will be very helpful for working more systematically through the process of webmaking.
+	Julie Meloni, Sams Teach Yourself HTML, CSS, and JavaScript
+	Jesse James Garrett, The Elements of User Experience
+
+Schedule
+
+Unit 1: Fundamentals 
+
+Meeting One: September 2, 2014
+	Course Overview
+	Histories of Internet, Web, Web Design
+	Introduction to HTML
+	Assignment #1
+
+Meeting Two: September 9, 2014
+	Review assignment #1
+	Introduction to Styling, CSS
+	Introduction web publishing methods: Servers and domains
+	Introduction to Reclaim Hosting
+	Assignment #2
+
+Meeting Three: September 16, 2014
+	Review assignment #2
+	Introduction to project planning
+	Review of Wireframes, User Experience
+	Assignment #3
+
+Meeting Four: September 23, 2014
+	Review Assignment #3
+	Additional web publishing methods/platforms: Content Management Systems
+	Assignment #4
+
+Meeting Five: September 30, 2014
+	Review Assignment #4
+	Interaction, responsive and mobile-first design
+	Client-side vs. Server-side programming 
+	
+Unit 2: Projects 
+
+Meeting Six: October 7, 2014
+	Scoping the Project
+	Gathering Requirements
+	
+Meeting Seven: October 21, 2014
+	Sketching, Storyboarding. Wireframing
+	
+Meeting Eight: October 29, 2014
+	Usability Testing & Refinement
+	Project Management
+
+Meeting Nine: November 4, 2014
+	Project check-in, review, and rotation
+	Coding: Divide & Conquer
+
+Meeting Ten: November 11, 2014
+	Coding
+
+Meeting Eleven: November 18, 2014 
+	Testing
+	
+Unit 3: Wrap Up and Reflections
+
+Meeting Twelve: November 25, 2014
+	Closing the Project
+
+Meeting Thirteen: December 2, 2014
+	Reflections
+
+
+Course Policies
+
+Accessibility, Disability, and Ability 
+Accessibility is an important civil rights issue, and the college has designed a system to support students with a range of abilities. As with any class at Occidental, if you require any particular accommodations to make this course more accessible to you, you must follow college policy, register with Occidental’s Disability Services department, and present your accommodation letter to the instructor at the beginning of the semester or as soon as possible thereafter. Any student who experiences significant physical or mental impairments may contact Disability Services at (323) 259-2969 to learn about available services and support. More information is available at http://www.oxy.edu/disability-services. 
+
+In this course, we will also discuss issues of accessibility as important concepts of web design, and will give significant consideration to how different individuals and groups might interact with the media we are producing.
+
+Academic Conduct and Plagiarism
+As you know, Occidental has a stated description of Academic Ethics and Academic Misconduct. You are encouraged to familiarize yourself with the articulation of these policies in the Student Handbook ( http://www.oxy.edu/student-handbook/academic-ethics ). 
+
+As web design often involves both collaboration and the reuse of existing resources, we will discuss in class what ethical and citational frameworks are appropriate for this type of creative work. You will be expected to abide by the policies in the handbook but we will work to collectively understand how these academic policies line up with webmaking practices. 
+
+Late work
+Late assignments are not allowed. This course will move quickly from concept to concept and it is imperative that you complete assignments on time in order to build a successful foundation for the rest of the course. If a project is late without making arrangements prior to the due date, it will be penalized by 1 grade point (e.g. an A becomes a B) for each day of lateness.
+
+Grading 
+	Weekly assignments: 25%
+	Attendance and participation: 25%
+	Effort and quality of work at early project check-in: 20%
+	Effort and quality of work on final project: 30%
+
+Writing support
+Although this course is not especially writing intensive, you might nonetheless wish to take advantage of the services offered by the College’s Center for Academic Excellence ( http://www.oxy.edu/center-academic-excellence ) and, specifically, the CAE’s Writing Center ( http://www.oxy.edu/center-academic-excellence/writing-center )
