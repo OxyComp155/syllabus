@@ -1,6 +1,7 @@
 This repository will initially act as a place to share the course syllabus for a project-based course in Webmaking.  
 
-comp155syllabus2013.txt
+In Fall 2014 Folder:
+comp155syllabus2014.txt
 ========
 
 The course syllabus
